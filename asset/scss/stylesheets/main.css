@@ -1,5 +1,402 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../../../../node_modules/vazir-font/dist/Vazir.eot");
+  src: url("../../../../node_modules/vazir-font/dist/Vazir.eot?#iefix") format("embedded-opentype"), url("../../../../node_modules/vazir-font/dist/Vazir.woff2") format("woff2"), url("../../../../node_modules/vazir-font/dist/Vazir.woff") format("woff"), url("../../../../node_modules/vazir-font/dist/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Bold.eot");
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Bold.eot?#iefix") format("embedded-opentype"), url("../../../../node_modules/vazir-font/dist/Vazir-Bold.woff2") format("woff2"), url("../../../../node_modules/vazir-font/dist/Vazir-Bold.woff") format("woff"), url("../../../../node_modules/vazir-font/dist/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Black.eot");
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Black.eot?#iefix") format("embedded-opentype"), url("../../../../node_modules/vazir-font/dist/Vazir-Black.woff2") format("woff2"), url("../../../../node_modules/vazir-font/dist/Vazir-Black.woff") format("woff"), url("../../../../node_modules/vazir-font/dist/Vazir-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Medium.eot");
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Medium.eot?#iefix") format("embedded-opentype"), url("../../../../node_modules/vazir-font/dist/Vazir-Medium.woff2") format("woff2"), url("../../../../node_modules/vazir-font/dist/Vazir-Medium.woff") format("woff"), url("../../../../node_modules/vazir-font/dist/Vazir-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Light.eot");
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Light.eot?#iefix") format("embedded-opentype"), url("../../../../node_modules/vazir-font/dist/Vazir-Light.woff2") format("woff2"), url("../../../../node_modules/vazir-font/dist/Vazir-Light.woff") format("woff"), url("../../../../node_modules/vazir-font/dist/Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Thin.eot");
+  src: url("../../../../node_modules/vazir-font/dist/Vazir-Thin.eot?#iefix") format("embedded-opentype"), url("../../../../node_modules/vazir-font/dist/Vazir-Thin.woff2") format("woff2"), url("../../../../node_modules/vazir-font/dist/Vazir-Thin.woff") format("woff"), url("../../../../node_modules/vazir-font/dist/Vazir-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
 /**
  * Basic typography style for copy text
  */
+.header .header__title {
+  font-family: Vazir;
+  font-size: 72px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.header .header__description {
+  font-family: Vazir;
+  font-size: 32px;
+  color: #dbdbdb;
+  font-weight: none;
+  line-height: 1.5;
+}
+
+.menu {
+  font-size: 45px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+#my-menu ul li {
+  font-family: Vazir;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.description .description__top h2 {
+  font-family: Vazir;
+  font-size: 28px;
+  color: #fdbc2c;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.description .description__top p {
+  font-family: Vazir;
+  font-size: 15px;
+  color: #dbdbdb;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.description .description__cards_card i {
+  font-size: 66px;
+  color: #D94F2B;
+}
+
+.description .description__cards_card span {
+  font-family: Vazir;
+  font-size: 20px;
+  color: #fdbc2c;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.description .description__cards_card p {
+  font-family: Vazir;
+  font-size: 15px;
+  color: #dbdbdb;
+  font-weight: 350;
+  line-height: 1.5;
+}
+
+.pizza-slider-info .slider-box__slide_content .slider__pizza-name {
+  font-family: Vazir;
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pizza-slider-info .slider-box__slide_content .slider__pizza-price {
+  font-family: Vazir;
+  font-size: 30px;
+  color: #fdbc2c;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.pizza-slider-info .slider-box__slide_content .slider__pizza-desc {
+  font-family: Vazir;
+  font-size: 18px;
+  color: #dbdbdb;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.pizza-slider-info .slider-box__slide_content .slider__pizza-link {
+  font-family: Vazir;
+  font-size: 18px;
+  color: #fdbc2c;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../imgs/main-slider_bg-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../imgs/main-slider_bg-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  direction: rtl;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container {
+  text-align: center;
+}
+
+.header .container .header__description {
+  padding: 40px 200px;
+}
+
+.menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.menu .menu__bars {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  padding: 15px;
+}
+
+.menu .menu__logo {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #151515;
+}
+
+.menu .menu__shoping {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fdbc2c;
+  padding: 15px;
+}
+
+#my-menu ul {
+  text-align: center;
+}
+
+#my-menu ul li {
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+#my-menu ul li:hover {
+  background-color: #fdbc2c;
+}
+
+#my-menu ul .sign {
+  border-top: 1px solid white;
+}
+
+.description {
+  background: url(../../imgs/pattern-body.jpg);
+  direction: rtl;
+  text-align: center;
+}
+
+.description .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 120px 0;
+}
+
+.description .container .description__top h2 {
+  padding: 30px 0;
+}
+
+.description .container .description__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.description .container .description__cards .description__cards_card {
+  -ms-flex-preferred-size: 33.3%;
+      flex-basis: 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.description .container .description__cards .description__cards_card span {
+  padding: 20px 0;
+}
+
+.description .container .description__cards .description__cards_card p {
+  padding: 0 10px;
+}
+
+.pizza-slider-info {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(238, 52, 2, 0.7)), to(rgba(238, 52, 0, 0.8))), url(../../imgs/pattern-1.png);
+  background: linear-gradient(rgba(238, 52, 2, 0.7), rgba(238, 52, 0, 0.8)), url(../../imgs/pattern-1.png);
+  position: relative;
+  padding: 13.5rem;
+}
+
+.pizza-slider-info .slider-box {
+  width: 100%;
+  position: absolute;
+  top: -90px;
+  left: 0;
+}
+
+.pizza-slider-info .slider-box__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.pizza-slider-info .slider-box__slide .slider-box__slide_content {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  direction: rtl;
+}
+
+.pizza-slider-info .slider-box__slide .slider-box__slide_content .slider__pizza-name {
+  padding: 20px 0;
+}
+
+.pizza-slider-info .slider-box__slide .slider-box__slide_content .slider__pizza-price {
+  padding: 10px 0;
+}
+
+.pizza-slider-info .slider-box__slide .slider-box__slide_content .slider__pizza-desc {
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+
+.pizza-slider-info .slider-box__slide .slider-box__slide_content .slider__pizza-link {
+  text-decoration: none;
+  padding: 15px 50px;
+  border: 1.5px solid #fdbc2c;
+  border-radius: 5px;
+}
+
+.pizza-slider-info .slider-box__slide .slider-box__slide_img {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.divet {
+  width: 250px;
+  height: 250px;
+}
+
+.divet .akset {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  -webkit-transition: all ease-in-out;
+  transition: all ease-in-out;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.divet .akset:hover {
+  opacity: 1;
+}
 /*# sourceMappingURL=main.css.map */

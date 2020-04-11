@@ -1,0 +1,23 @@
+{
+  "name": "pizza-maker",
+  "version": "1.0.0",
+  "description": "Create your own personal pizza in this template",
+  "main": "index.js",
+  "dependencies": {
+    "vazir-font": "^24.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neroreza/pizza-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neroreza/pizza-maker/issues"
+  },
+  "homepage": "https://github.com/neroreza/pizza-maker#readme"
+}

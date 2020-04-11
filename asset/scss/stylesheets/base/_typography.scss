@@ -1,3 +1,65 @@
 /**
  * Basic typography style for copy text
  */
+
+//header
+.header {
+  .header__title {
+    @include font-mix($vazir-font, 72px, $white-color, 700, 1.8);
+  }
+  .header__description {
+    @include font-mix($vazir-font, 32px, $grey-color, none, 1.5);
+  }
+}
+//menu
+.menu {
+  font-size: 45px;
+  a{
+      text-decoration: none;
+      color: $white-color;
+  }
+}
+// nav
+#my-menu ul li{
+    @include font-mix($vazir-font, 14px, $white-color, 400, 1.5);
+}
+// description
+.description{
+    .description__top{
+        h2{
+            @include font-mix($vazir-font, 28px, $orang-color, 700, 1.5);
+        }
+        p{
+            @include font-mix($vazir-font, 15px, $grey-color, 400, 1.8);
+        }
+    }
+    .description__cards_card{
+        i{
+            font-size: 66px;
+            color: $red-color;
+        }
+        span{
+            @include font-mix($vazir-font, 20px, $orang-color, 600, 1);
+        }
+        p{
+            @include font-mix($vazir-font, 15px, $grey-color, 350, 1.5);
+        }
+    }
+}
+//pizza slider
+.pizza-slider-info{
+    .slider-box__slide_content{
+        .slider__pizza-name{
+            @include font-mix($vazir-font, 60px, $white-color, 700, 1);
+        }
+        .slider__pizza-price{
+            @include font-mix($vazir-font, 30px, $orang-color, 500, 1);
+        }
+        .slider__pizza-desc{
+            @include font-mix($vazir-font, 18px, $grey-color, 300, 1);
+        }
+        .slider__pizza-link{
+            @include font-mix($vazir-font, 18px, $orang-color, 500, 1);
+        }
+    }
+}

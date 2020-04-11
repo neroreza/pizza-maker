@@ -1,3 +1,10 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
+@mixin font-mix($family , $size , $font-color , $weight , $line-h) {
+    font-family: $family;
+    font-size: $size;
+    color: $font-color;
+    font-weight: $weight;
+    line-height: $line-h;
+}

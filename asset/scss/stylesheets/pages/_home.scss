@@ -1,3 +1,95 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+//description
+.description{
+    background: url(../../imgs/pattern-body.jpg);
+    direction: rtl;
+    text-align: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 120px 0;
+        .description__top{
+            h2{
+                padding: 30px 0;
+            }
+        }
+        .description__cards{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 60px;
+            .description__cards_card{
+                flex-basis: 33.3%;
+                display: flex;
+                flex-direction: column;
+                span{
+                    padding: 20px 0;
+                }
+                p{
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+
+// slider
+.pizza-slider-info{
+    width: 100%;
+    background: linear-gradient(rgba(238, 52, 2, 0.7),rgba(238, 52, 0, 0.8)),url(../../imgs/pattern-1.png);
+    position: relative;
+    padding: 13.5rem;
+    .slider-box{
+        width: 100%;
+        position: absolute;
+        top: -90px;
+        left: 0;
+    }
+    .slider-box__slide{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        .slider-box__slide_content{
+            flex-basis: 50%;
+            direction: rtl;
+            .slider__pizza-name{
+                padding: 20px 0;
+            }
+            .slider__pizza-price{
+                padding: 10px 0;
+            }
+            .slider__pizza-desc{
+                padding: 10px 0;
+                margin-bottom: 50px;
+            }
+            .slider__pizza-link{
+                text-decoration: none;
+                padding: 15px 50px;
+                border: 1.5px solid $orang-color;
+                border-radius: 5px;
+            }
+        }
+        .slider-box__slide_img{
+            flex-basis: 40%;
+        }
+    }
+}
+.divet{
+    // background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    width: 250px;
+    height: 250px;
+    .akset{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        transition:all ease-in-out;
+        transition-duration: 0.8s;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
