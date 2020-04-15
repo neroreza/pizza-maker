@@ -63,3 +63,44 @@
         }
     }
 }
+
+//create pizza sec
+.create-pizza{
+    .create-pizza__desc{
+        text-align: center;
+        h2{
+            @include font-mix($vazir-font, 38px, $orang-color, 700, 1.5);
+            padding: 3rem 0;
+        }
+        p{
+            @include font-mix($vazir-font, 18px, $white-color, 450, 1.5);
+            letter-spacing: 1px;
+        }
+    }
+    .accordion{
+        li{
+            @include font-mix($medad-font, 54px, $red-color, 500, 1.8);
+            .accordion__title_txt{
+                @include font-mix($vazir-font, 32px, $orang-color, 400, 1.8);
+            }
+            .accordion__title_icon{
+                @include font-mix($medad-font, 45px, $white-color, 400, 1.5);
+                padding-bottom: 10px;
+            }
+            .according__info_box-side{
+                p{
+                    @include font-mix($vazir-font, 18px, $white-color, 20, 1.3);
+                }
+                ul{
+                    padding-top: 10px;
+                    padding-right: 20px;
+                    li{
+                        @include font-mix($vazir-font, 15px, $red-color, 400, 1.5);
+                        padding: 5px 5px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
