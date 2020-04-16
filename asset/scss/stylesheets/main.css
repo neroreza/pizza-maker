@@ -233,6 +233,74 @@
   padding: 5px 5px;
 }
 
+.counterup .counter-up .num {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 55px;
+  color: white;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.counterup .counter-up > :last-child {
+  font-family: Vazir;
+  font-size: 20px;
+  color: #dbdbdb;
+  font-weight: 400;
+  line-height: 0;
+}
+
+.feedback .feedback__title {
+  font-family: Vazir;
+  font-size: 32px;
+  color: #fdbc2c;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+.feedback .feedback__txt {
+  font-family: Vazir;
+  font-size: 15px;
+  color: white;
+  font-weight: 100;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+.feedback .feedback__slider_slid_title {
+  font-family: Vazir;
+  font-size: 22px;
+  color: #fdbc2c;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+.feedback .feedback__slider_slid_comment p {
+  font-family: Vazir;
+  font-size: 14px;
+  color: white;
+  font-weight: 100;
+  line-height: 1.3;
+}
+
+.feedback .feedback__slider_slid_sender-name {
+  font-family: Vazir;
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.feedback .feedback__slider_slid_sender-Email {
+  font-family: Vazir;
+  font-size: 14px;
+  color: #D94F2B;
+  font-weight: 200;
+  line-height: 1.3;
+  padding-top: 5px;
+}
+
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../imgs/main-slider_bg-1.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../imgs/main-slider_bg-1.jpg);
@@ -520,5 +588,111 @@
       flex-basis: 55%;
   padding-right: 20px;
   padding-top: 20px;
+}
+
+.counterup {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../imgs/bg-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../imgs/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.counterup .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4.5rem 0;
+}
+
+.counterup .container .counter-up {
+  width: 160px;
+  height: 160px;
+  margin: 0 20px;
+  padding: 20px;
+  border: 5px solid #D94F2B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  direction: rtl;
+  border-radius: 50%;
+}
+
+.counterup .container .counter-up .num {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.counterup .container .counter-up > :last-child {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.feedback {
+  width: 100%;
+  background: url(../../imgs/pattern-body.jpg);
+  padding-top: 65px;
+  text-align: center;
+}
+
+.feedback .feedback__slider {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.feedback .feedback__slider .feedback__slider_slid {
+  margin: 0px 35px;
+}
+
+.feedback .feedback__slider .feedback__slider_slid .feedback__slider_slid_img img {
+  padding: 60px 60px 0 60px;
+}
+
+.feedback .feedback__slider .feedback__slider_slid_comment {
+  border: 4px solid #D94F2B;
+  padding: 15px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.feedback .feedback__slider .feedback__slider_slid_comment::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-top: 4px solid #D94F2B;
+  border-left: 4px solid #D94F2B;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: -12px;
+  right: calc(50% - 8px);
+  background: url(../../imgs/pattern-body.jpg);
+}
+
+.feedback .feedback__slider .feedback__slider_slid_sender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */

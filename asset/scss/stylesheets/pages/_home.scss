@@ -130,3 +130,88 @@
         }
     }
 }
+
+//counter up
+.counterup{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)) , url(../../imgs/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    // background-attachment: fixed;;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 4.5rem 0;
+        .counter-up{
+            width: 160px;
+            height: 160px;
+            margin: 0 20px;
+            padding: 20px;
+            border: 5px solid $red-color;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            direction: rtl;
+            border-radius: 50%;
+            .num{
+                flex-basis: 100%;
+            }
+            &>:last-child{
+                flex-basis: 100%;
+            }
+        }
+    }
+}
+
+//feedback
+.feedback{
+    width: 100%;
+    background: url(../../imgs/pattern-body.jpg);
+    padding-top: 65px;
+    // direction: rtl;
+    text-align: center;
+    .feedback__slider{
+        width: 100%;
+        // display: flex;
+        // flex-wrap: nowrap;
+        // justify-content: center;
+        margin-top: 30px;
+        .feedback__slider_slid{
+            // flex-basis: 33.3%;
+            margin: 0px 35px;
+            .feedback__slider_slid_img img{
+                padding: 60px 60px 0 60px;
+
+            }
+        }
+        .feedback__slider_slid_comment{
+            border: 4px solid $red-color;
+            padding: 15px;
+            margin-top: 20px;
+            position: relative;
+            &::before{
+                content: '';
+                display: block;
+                width: 15px;
+                height: 15px;
+                border-top: 4px solid $red-color;
+                border-left: 4px solid $red-color;
+                text-align: center;
+                transform: rotate(45deg);
+                position: absolute;
+                top: -12px;
+                right: calc(50% - 8px);
+                background: url(../../imgs/pattern-body.jpg);
+                
+            }
+        }
+        .feedback__slider_slid_sender{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+    }
+}
