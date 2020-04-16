@@ -301,6 +301,55 @@
   padding-top: 5px;
 }
 
+.mobile-app .mobile-app__info_title1 {
+  font-family: Vazir;
+  font-size: 25px;
+  color: #fdbc2c;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.mobile-app .mobile-app__info_txt {
+  font-family: Vazir;
+  font-size: 14px;
+  color: #dbdbdb;
+  font-weight: 150;
+  line-height: 1.8;
+  padding: 20px 0;
+}
+
+.mobile-app .mobile-app__info_title2 {
+  font-family: Vazir;
+  font-size: 25px;
+  color: #fdbc2c;
+  font-weight: 500;
+  line-height: 1.8;
+  padding-top: 90px;
+}
+
+.mobile-app .mobile-app__info_ul {
+  padding-top: 30px;
+  font-family: Vazir;
+  font-size: 18px;
+  color: #D94F2B;
+  font-weight: 300;
+  line-height: 1.8;
+  margin-right: 20px;
+}
+
+.mobile-app .mobile-app__info_links a {
+  font-family: Vazir;
+  font-size: 18px;
+  color: black;
+  font-weight: 550;
+  line-height: 1.8;
+}
+
+.mobile-app .mobile-app__info_links a i {
+  font-size: 26px;
+  margin-right: 20px;
+}
+
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../imgs/main-slider_bg-1.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../imgs/main-slider_bg-1.jpg);
@@ -670,7 +719,7 @@
 }
 
 .feedback .feedback__slider .feedback__slider_slid_comment::before {
-  content: '';
+  content: "";
   display: block;
   width: 15px;
   height: 15px;
@@ -694,5 +743,108 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 20px;
+}
+
+.mobile-app {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../imgs/bg-2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imgs/bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-app .mobile-app_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 80px;
+  direction: rtl;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mobile-app .mobile-app_container .mobile-app__img {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.mobile-app .mobile-app_container .mobile-app__img img {
+  padding: 50px;
+  padding-top: 0;
+}
+
+.mobile-app .mobile-app_container .mobile-app__info {
+  padding-right: 20px;
+}
+
+.mobile-app .mobile-app_container .mobile-app__info .mobile-app__info_links {
+  direction: ltr;
+  text-align: right;
+  margin-top: 60px;
+}
+
+.mobile-app .mobile-app_container .mobile-app__info .mobile-app__info_links a {
+  border-radius: 5px;
+  border: 1px solid #fdbc2c;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  height: 65px;
+  background-color: #fdbc2c;
+  margin-left: 20px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+.mobile-app .mobile-app_container .mobile-app__info .mobile-app__info_links a:first-child::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: black;
+  width: 250px;
+  height: 0px;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+  z-index: -1;
+  -webkit-transition: 0.7s all ease-in-out;
+  transition: 0.7s all ease-in-out;
+}
+
+.mobile-app .mobile-app_container .mobile-app__info .mobile-app__info_links a:last-child::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: black;
+  width: 250px;
+  height: 0px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  z-index: -1;
+  -webkit-transition: 0.7s all ease-in-out;
+  transition: 0.7s all ease-in-out;
+}
+
+.mobile-app .mobile-app_container .mobile-app__info .mobile-app__info_links a:hover::before {
+  height: 100px;
+}
+
+.mobile-app .mobile-app_container .mobile-app__info .mobile-app__info_links a:hover {
+  color: #dbdbdb;
 }
 /*# sourceMappingURL=main.css.map */

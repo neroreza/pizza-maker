@@ -140,3 +140,33 @@
         padding-top: 5px;
     }
 }
+
+//mobile-app
+.mobile-app{
+    .mobile-app__info_title1{
+        @include font-mix($vazir-font, 25px, $orang-color, 500, 1.8);
+    }
+    .mobile-app__info_txt{
+        @include font-mix($vazir-font, 14px, $grey-color, 150, 1.8);
+        padding: 20px 0;
+    }
+    .mobile-app__info_title2{
+        @include font-mix($vazir-font, 25px, $orang-color, 500, 1.8);
+        padding-top: 90px;
+    }
+    .mobile-app__info_ul{
+        padding-top: 30px;
+        @include font-mix($vazir-font, 18px, $red-color, 300, 1.8);
+        margin-right: 20px;
+    }
+    .mobile-app__info_links a{
+        @include font-mix($vazir-font, 18px, $black-color, 550, 1.8);
+        i{
+            font-size: 26px;
+            margin-right: 20px;
+        }
+        // &:hover{
+
+        // }
+    }
+}
