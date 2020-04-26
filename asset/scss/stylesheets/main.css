@@ -350,6 +350,66 @@
   margin-right: 20px;
 }
 
+.news-letters .news-letters__title {
+  font-family: Vazir;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.news-letters .news-letters__form_txt {
+  font-family: Vazir;
+  font-size: 20px;
+  color: black;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.news-letters .news-letters__form_btn {
+  font-family: Vazir;
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+  line-height: 1.8;
+  cursor: pointer;
+}
+
+.footer .footer__tel {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 52px;
+  color: #D94F2B;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.footer .footer__url {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 32px;
+  color: #D94F2B;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.footer .footer__r {
+  margin-top: -50px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 25px;
+  color: #dbdbdb;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.footer .designer {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 18px;
+  color: #dbdbdb;
+  font-weight: 300;
+  line-height: 1.8;
+  padding-top: 10px;
+}
+
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../imgs/main-slider_bg-1.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../imgs/main-slider_bg-1.jpg);
@@ -453,6 +513,17 @@
 
 #my-menu ul .sign {
   border-top: 1px solid white;
+}
+
+.footer {
+  background: url(../../imgs/pattern-body.jpg);
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.footer .footer__img {
+  padding-top: 20px;
 }
 
 .description {
@@ -846,5 +917,35 @@
 
 .mobile-app .mobile-app_container .mobile-app__info .mobile-app__info_links a:hover {
   color: #dbdbdb;
+}
+
+.news-letters {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 246, 0, 0.8)), to(rgba(250, 246, 0, 0.8))), url(../../imgs/pattern-2.png);
+  background: linear-gradient(rgba(250, 246, 0, 0.8), rgba(250, 246, 0, 0.8)), url(../../imgs/pattern-2.png);
+  padding: 6rem 0;
+  direction: rtl;
+  text-align: center;
+}
+
+.news-letters .news-letters__form .news-letters__form_txt {
+  height: 50px;
+  padding: 5px;
+  width: 320px;
+  border: 1px solid black;
+}
+
+.news-letters .news-letters__form .news-letters__form_btn {
+  height: 50px;
+  padding: 5px;
+  width: 110px;
+  border: 1px solid black;
+  background-color: black;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.news-letters .news-letters__form .news-letters__form_btn:hover {
+  border-color: #D94F2B;
+  border-radius: 10px 0 10px 0;
 }
 /*# sourceMappingURL=main.css.map */

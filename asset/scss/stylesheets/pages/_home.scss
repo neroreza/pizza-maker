@@ -285,10 +285,40 @@
           &:hover::before {
             height: 100px;
           }
-          &:hover{
-              color: $grey-color;
+          &:hover {
+            color: $grey-color;
           }
         }
+      }
+    }
+  }
+}
+
+//news-letters
+.news-letters {
+  background: linear-gradient(rgba(250, 246, 0, 0.8), rgba(250, 246, 0, 0.8)),
+    url(../../imgs/pattern-2.png);
+  padding: 6rem 0;
+  direction: rtl;
+  text-align: center;
+  .news-letters__form {
+    .news-letters__form_txt {
+      height: 50px;
+      padding: 5px;
+      width: 320px;
+      border: 1px solid $black-color;
+    }
+    .news-letters__form_btn {
+      height: 50px;
+      padding: 5px;
+      width: 110px;
+      border: 1px solid $black-color;
+      background-color: $black-color;
+      transition: 0.5s all ease-in-out;
+      &:hover {
+        // background-color: $dark-color;
+        border-color: $red-color;
+        border-radius: 10px 0 10px 0;
       }
     }
   }

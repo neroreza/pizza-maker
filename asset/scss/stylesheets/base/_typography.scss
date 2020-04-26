@@ -140,7 +140,6 @@
         padding-top: 5px;
     }
 }
-
 //mobile-app
 .mobile-app{
     .mobile-app__info_title1{
@@ -165,8 +164,37 @@
             font-size: 26px;
             margin-right: 20px;
         }
-        // &:hover{
-
-        // }
+    }
+}
+// news-letters
+.news-letters{
+    .news-letters__title{
+        @include font-mix($vazir-font, 40px, $black-color, 600, 1.8);
+        margin-bottom: 20px;
+    }
+    .news-letters__form_txt{
+        @include font-mix($vazir-font, 20px, $black-color, 200, 1.8);
+    }
+    .news-letters__form_btn{
+        @include font-mix($vazir-font, 20px, $white-color, 200, 1.8);
+        cursor: pointer;
+    }
+}
+//footer
+.footer{
+    .footer__tel{
+        @include font-mix($medad-font, 52px, $red-color, 500, 1.8);
+    }
+    .footer__url{
+        @include font-mix($medad-font, 32px, $red-color, 300, 1.8);
+    }
+    .footer__r{
+        margin-top: -50px;
+        // padding-top: 20px;
+        @include font-mix($medad-font, 25px, $grey-color, 300, 1.8);
+    }
+    .designer{
+        @include font-mix($medad-font, 18px, $grey-color, 300, 1.8);
+        padding-top: 10px;
     }
 }
