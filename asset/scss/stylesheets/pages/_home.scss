@@ -117,6 +117,7 @@
           .according__info_box-img {
             flex-basis: 45%;
             img {
+              width: 100%;
               padding: 20px;
               border: 2px solid $red-color;
             }
@@ -158,6 +159,7 @@
       text-align: center;
       direction: rtl;
       border-radius: 50%;
+      margin: 10px;
       .num {
         flex-basis: 100%;
       }
@@ -260,6 +262,7 @@
           overflow: hidden;
           z-index: 1;
           transition: 1s all ease-in-out;
+          margin-bottom: 15px;
           &:first-child::before {
             content: "";
             display: block;
@@ -322,4 +325,37 @@
       }
     }
   }
+}
+
+//response
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  //slider
+  .pizza-slider-info {
+    padding-top: 11rem;
+    .slider-box {
+      top: -20px;
+    }
+  }
+
+  //mobile app
+  .mobile-app__info_links {
+    a {
+      width: 150px!important;
+      height: 55px!important;
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
 }
