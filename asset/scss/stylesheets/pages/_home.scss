@@ -342,14 +342,72 @@
   //mobile app
   .mobile-app__info_links {
     a {
-      width: 150px!important;
-      height: 55px!important;
+      width: 150px !important;
+      height: 55px !important;
     }
   }
 }
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+  // slider
+  .pizza-slider-info {
+    padding-top: 7rem;
+  }
+  .slider__pizza-link {
+    padding: 12px 45px !important;
+  }
+  //create pizza
+  .create-pizza {
+    padding-top: 2rem !important;
+  }
+  //feedback
+  .feedback__slider_slid {
+    margin: 0px 15px !important;
+    .feedback__slider_slid_img img {
+      padding: 10px 10px 0 10px !important;
+    }
+  }
+  //mobile app
+  .mobile-app__img {
+    flex-basis: 40% !important;
+    img {
+      width: 300px !important;
+      padding: 20px !important;
+    }
+  }
+  .mobile-app__info_links a {
+    width: 140px !important;
+    height: 50px !important;
+    margin-left: 10px;
+  }
+
+  //news-letters
+  .news-letters {
+    padding: 4rem 0;
+    .news-letters__form {
+      .news-letters__form_txt {
+        height: 40px;
+        width: 300px;
+      }
+      .news-letters__form_btn {
+        height: 42px;
+        width: 100px;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  // slider
+  .pizza-slider-info {
+    padding-top: 5.5rem;
+  }
+}
+@media (max-width: 860px) {
+  // slider
+  .pizza-slider-info {
+    padding-top: 5rem;
+  }
 }
 
 // Small devices (landscape phones, less than 768px)

@@ -419,6 +419,148 @@
   }
 }
 
+@media (max-width: 991.98px) {
+  .header__title {
+    font-size: 45px !important;
+  }
+  .header__description {
+    font-size: 30px !important;
+  }
+  .menu {
+    font-size: 30px;
+  }
+  .description__top h2 {
+    font-size: 24px !important;
+  }
+  .description__top p {
+    font-size: 12px !important;
+  }
+  .description__cards_card i {
+    font-size: 55px !important;
+  }
+  .description__cards_card span {
+    font-size: 15px !important;
+  }
+  .description__cards_card p {
+    font-size: 13px !important;
+  }
+  .slider__pizza-name {
+    font-size: 50px !important;
+  }
+  .slider__pizza-price {
+    font-size: 26px !important;
+  }
+  .slider__pizza-desc {
+    font-size: 15px !important;
+  }
+  .slider__pizza-link {
+    font-size: 15px !important;
+  }
+  .create-pizza__desc h2 {
+    font-size: 30px !important;
+  }
+  .create-pizza__desc p {
+    font-size: 14px !important;
+  }
+  .accordion li {
+    font-size: 48px !important;
+  }
+  .accordion li .accordion__title_txt {
+    font-size: 28px !important;
+  }
+  .accordion li .accordion__title_icon {
+    font-size: 40px !important;
+  }
+  .accordion li .according__info_box-side p {
+    font-size: 14px !important;
+  }
+  .accordion li .according__info_box-side ul {
+    padding-top: 5px !important;
+  }
+  .accordion li .according__info_box-side ul li {
+    font-size: 12px !important;
+    padding: 2px 5px !important;
+  }
+  .counter-up .num {
+    font-size: 45px !important;
+  }
+  .counter-up > :last-child {
+    font-size: 18px !important;
+  }
+  .feedback__tite {
+    font-size: 28px !important;
+  }
+  .feedback__txt {
+    font-size: 14px !important;
+    padding: 15px;
+  }
+  .feedback__slider_slid_title {
+    font-size: 16px !important;
+    padding: 10px 0 !important;
+  }
+  .feedback__slider_slid_comment {
+    padding: 7px !important;
+  }
+  .feedback__slider_slid_comment p {
+    font-size: 12px !important;
+  }
+  .feedback__slider_slid_sender-name {
+    font-size: 12px !important;
+  }
+  .feedback__slider_slid_sender-Email {
+    font-size: 11px !important;
+    padding-top: 5px;
+  }
+  .mobile-app .mobile-app__info_title1 {
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+  }
+  .mobile-app .mobile-app__info_txt {
+    font-size: 12px !important;
+    padding: 15px 0 !important;
+  }
+  .mobile-app .mobile-app__info_title2 {
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+    padding-top: 45px !important;
+  }
+  .mobile-app .mobile-app__info_ul {
+    padding-top: 30px;
+    font-size: 15px !important;
+    margin-right: 20px;
+  }
+  .mobile-app .mobile-app__info_links a {
+    font-size: 15px !important;
+  }
+  .mobile-app .mobile-app__info_links a i {
+    font-size: 26px;
+    margin-right: 20px;
+  }
+  .news-letters .news-letters__title {
+    font-size: 35px !important;
+    margin-bottom: 20px;
+  }
+  .news-letters .news-letters__form_txt {
+    font-size: 18px !important;
+  }
+  .news-letters .news-letters__form_btn {
+    font-size: 18px !important;
+  }
+  .footer .footer__tel {
+    font-size: 45px !important;
+  }
+  .footer .footer__url {
+    font-size: 28px !important;
+  }
+  .footer .footer__r {
+    margin-top: -50px;
+    font-size: 22px !important;
+  }
+  .footer .designer {
+    font-size: 15px !important;
+  }
+}
+
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../imgs/main-slider_bg-1.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../imgs/main-slider_bg-1.jpg);
@@ -971,6 +1113,60 @@
   .mobile-app__info_links a {
     width: 150px !important;
     height: 55px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .pizza-slider-info {
+    padding-top: 7rem;
+  }
+  .slider__pizza-link {
+    padding: 12px 45px !important;
+  }
+  .create-pizza {
+    padding-top: 2rem !important;
+  }
+  .feedback__slider_slid {
+    margin: 0px 15px !important;
+  }
+  .feedback__slider_slid .feedback__slider_slid_img img {
+    padding: 10px 10px 0 10px !important;
+  }
+  .mobile-app__img {
+    -ms-flex-preferred-size: 40% !important;
+        flex-basis: 40% !important;
+  }
+  .mobile-app__img img {
+    width: 300px !important;
+    padding: 20px !important;
+  }
+  .mobile-app__info_links a {
+    width: 140px !important;
+    height: 50px !important;
+    margin-left: 10px;
+  }
+  .news-letters {
+    padding: 4rem 0;
+  }
+  .news-letters .news-letters__form .news-letters__form_txt {
+    height: 40px;
+    width: 300px;
+  }
+  .news-letters .news-letters__form .news-letters__form_btn {
+    height: 42px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .pizza-slider-info {
+    padding-top: 5.5rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .pizza-slider-info {
+    padding-top: 5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
