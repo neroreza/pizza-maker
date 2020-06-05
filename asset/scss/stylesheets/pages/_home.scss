@@ -412,6 +412,43 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+  //description
+  .description .container {
+    padding: 30px 0;
+  }
+  // slider
+  .pizza-slider-info {
+    padding-top: 4rem;
+  }
+  .slider__pizza-link {
+    padding: 10px 40px !important;
+  }
+  .slider-box {
+    top: 0px!important;
+  }
+  .slider__pizza-desc {
+    padding: 10px 0;
+    margin-bottom: 15px!important;
+  }
+  //create pizza
+  .create-pizza {
+    padding-top: 1rem !important;
+  }
+  .according__info_box-img img{
+    padding: 10px!important;
+  }
+  //.counter-up
+  .counter-up{
+    width: 110px!important;
+    height: 110px!important;
+  }
+  //feedback
+  .feedback__slider_slid {
+    margin: 0px 10px !important;
+    .feedback__slider_slid_img img {
+      padding: 8px 8px 0 8px !important;
+    }
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)

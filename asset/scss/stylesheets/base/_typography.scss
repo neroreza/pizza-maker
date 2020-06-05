@@ -393,7 +393,128 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-        
+  //header
+  .header__title {
+    font-size: 35px !important;
+  }
+  .header__description {
+    font-size: 25px !important;
+    padding: 35px 50px !important;
+  }
+  //menu
+  .menu {
+    font-size: 26px;
+  }
+
+  #my-menu ul li {
+    font-size: 12px !important;
+  }
+  //description
+  .description__top {
+    h2 {
+      font-size: 20px !important;
+    }
+    p {
+      font-size: 10px !important;
+    }
+  }
+  .description__cards_card {
+    i {
+      font-size: 48px !important;
+    }
+    span {
+      font-size: 12px !important;
+    }
+    p {
+      font-size: 11px !important;
+    }
+  }
+
+  //slider info
+  .slider__pizza-name {
+    font-size: 35px !important;
+  }
+  .slider__pizza-price {
+    font-size: 20px !important;
+  }
+  .slider__pizza-desc {
+    font-size: 13px !important;
+  }
+  .slider__pizza-link {
+    font-size: 12px !important;
+  }
+  //create pizza
+  .create-pizza__desc {
+    h2 {
+      font-size: 25px !important;
+      padding: 20px 0 !important;
+    }
+    p {
+      font-size: 11px !important;
+    }
+  }
+  .accordion {
+    margin-top: 20px !important;
+    li {
+      font-size: 40px !important;
+      padding: 15px 10px !important;
+      padding-right: 15x !important;
+      .accordion__title_txt {
+        font-size: 23px !important;
+      }
+      .accordion__title_icon {
+        font-size: 35px !important;
+      }
+      .according__info_box-side {
+        p {
+          font-size: 11px !important;
+        }
+        ul {
+          padding-top: 5px !important;
+          li {
+            font-size: 12px !important;
+            padding: 2px 5px !important;
+          }
+        }
+      }
+    }
+  }
+  //.counter-up
+  .counter-up {
+    padding: 10px!important;
+    .num {
+      font-size: 40px !important;
+    }
+    & > :last-child {
+      font-size: 15px !important;
+    }
+  }
+
+  //feedback
+  .feedback__tite {
+    font-size: 28px !important;
+  }
+  .feedback__txt {
+    font-size: 14px !important;
+    padding: 15px;
+  }
+  .feedback__slider_slid_title {
+    font-size: 16px !important;
+    padding: 10px 0 !important;
+  }
+  .feedback__slider_slid_comment {
+    padding: 7px !important;
+    p {
+      font-size: 12px !important;
+    }
+  }
+  .feedback__slider_slid_sender-name {
+    font-size: 12px !important;
+  }
+  .feedback__slider_slid_sender-Email {
+    font-size: 11px !important;
+    padding-top: 5px;
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
