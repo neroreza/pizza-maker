@@ -481,7 +481,7 @@
   }
   //.counter-up
   .counter-up {
-    padding: 10px!important;
+    padding: 10px !important;
     .num {
       font-size: 40px !important;
     }
@@ -491,7 +491,7 @@
   }
 
   //feedback
-  .feedback__tite {
+  .feedback__title {
     font-size: 28px !important;
   }
   .feedback__txt {
@@ -515,8 +515,218 @@
     font-size: 11px !important;
     padding-top: 5px;
   }
+  //mobile-app
+  .mobile-app {
+    .mobile-app__info_title1 {
+      font-size: 17px !important;
+      line-height: 1.2 !important;
+    }
+    .mobile-app__info_txt {
+      font-size: 10px !important;
+      padding: 8px 0 !important;
+    }
+    .mobile-app__info_title2 {
+      font-size: 15px !important;
+      line-height: 1.2 !important;
+      padding-top: 10px !important;
+    }
+    .mobile-app__info_ul {
+      padding-top: 10px;
+      font-size: 12px !important;
+      margin-right: 10px;
+    }
+    .mobile-app__info_links a {
+      font-size: 10px !important;
+      i {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  // news-letters
+  .news-letters {
+    .news-letters__title {
+      font-size: 28px !important;
+      margin-bottom: 20px;
+    }
+    .news-letters__form_txt {
+      font-size: 15px !important;
+    }
+    .news-letters__form_btn {
+      font-size: 15px !important;
+    }
+  }
+
+  //footer
+  .footer {
+    .footer__tel {
+      font-size: 40px !important;
+    }
+    .footer__url {
+      font-size: 20px !important;
+    }
+    .footer__r {
+      margin-top: -50px;
+      font-size: 20px !important;
+    }
+    .designer {
+      font-size: 15px !important;
+    }
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  //header
+  .header__title {
+    font-size: 25px !important;
+  }
+  .header__description {
+    font-size: 18px !important;
+    padding: 15px 20px !important;
+  }
+  //menu
+  .menu {
+    font-size: 18px;
+  }
+
+  #my-menu ul li {
+    font-size: 10px !important;
+  }
+  //description
+  .description__top {
+    h2 {
+      font-size: 17px !important;
+    }
+    p {
+      font-size: 10px !important;
+    }
+  }
+  .description__cards_card {
+    i {
+      font-size: 40px !important;
+    }
+    span {
+      font-size: 11px !important;
+    }
+    p {
+      font-size: 10px !important;
+    }
+  }
+
+  //slider info
+  .slider__pizza-name {
+    font-size: 25px !important;
+  }
+  .slider__pizza-price {
+    font-size: 14px !important;
+  }
+  .slider__pizza-desc {
+    font-size: 11px !important;
+  }
+  .slider__pizza-link {
+    font-size: 10px !important;
+  }
+  //create pizza
+  .create-pizza__desc {
+    h2 {
+      font-size: 25px !important;
+      padding: 18px 0 !important;
+    }
+    p {
+      font-size: 11px !important;
+    }
+  }
+  .accordion {
+    margin-top: 17px !important;
+    li {
+      font-size: 35px !important;
+      padding: 15px 10px !important;
+      padding-right: 15x !important;
+      .accordion__title_txt {
+        font-size: 20px !important;
+      }
+      .accordion__title_icon {
+        font-size: 30px !important;
+      }
+      .according__info_box-side {
+        p {
+          font-size: 11px !important;
+        }
+        ul {
+          padding-top: 1px !important;
+          li {
+            font-size: 10px !important;
+            padding: 1px 5px !important;
+          }
+        }
+      }
+    }
+  }
+  //.counter-up
+  .counter-up {
+    padding: 10px !important;
+    .num {
+      font-size: 30px !important;
+    }
+    & > :last-child {
+      font-size: 12px !important;
+    }
+  }
+
+  //feedback
+  .feedback__title {
+    font-size: 20px !important;
+  }
+  .feedback__txt {
+    font-size: 11px !important;
+    padding: 10px;
+  }
+  .feedback__slider_slid_title {
+    font-size: 14px !important;
+    padding: 10px 0 !important;
+  }
+  .feedback__slider_slid_comment {
+    padding: 7px !important;
+    p {
+      font-size: 12px !important;
+    }
+  }
+  .feedback__slider_slid_sender-name {
+    font-size: 12px !important;
+  }
+  .feedback__slider_slid_sender-Email {
+    font-size: 11px !important;
+    padding-top: 5px;
+  }
+  // news-letters
+  .news-letters {
+    .news-letters__title {
+      font-size: 24px !important;
+      margin-bottom: 20px;
+    }
+    .news-letters__form_txt {
+      font-size: 12px !important;
+    }
+    .news-letters__form_btn {
+      font-size: 12px !important;
+    }
+  }
+  //footer
+  .footer {
+    .footer__tel {
+      font-size: 30px !important;
+    }
+    .footer__url {
+      font-size: 15px !important;
+    }
+    .footer__r {
+      margin-top: -50px;
+      font-size: 18px !important;
+    }
+    .designer {
+      font-size: 14px !important;
+    }
+  }
 }

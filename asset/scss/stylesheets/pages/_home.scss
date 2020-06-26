@@ -347,7 +347,6 @@
     }
   }
 }
-
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
   // slider
@@ -409,7 +408,6 @@
     padding-top: 5rem;
   }
 }
-
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
   //description
@@ -449,8 +447,98 @@
       padding: 8px 8px 0 8px !important;
     }
   }
+  //mobile app
+  .mobile-app__img {
+    flex-basis: 40% !important;
+    img {
+      width: 300px !important;
+      padding: 20px !important;
+    }
+  }
+  .mobile-app__info_links a {
+    width: 140px !important;
+    height: 50px !important;
+    margin-left: 10px;
+  }
+  //news-letters
+  .news-letters {
+    padding: 3rem 0;
+    .news-letters__form {
+      .news-letters__form_txt {
+        height: 35px;
+        width: 280px;
+      }
+      .news-letters__form_btn {
+        height: 37px;
+        width: 80px;
+      }
+    }
+  }
 }
-
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  //description
+  .description .container {
+    padding: 20px 0;
+  }
+  // slider
+  .pizza-slider-info {
+    padding-top: 3rem;
+  }
+  .slider__pizza-link {
+    padding: 10px 30px !important;
+  }
+  .slider-box {
+    top: 0px!important;
+  }
+  .slider__pizza-desc {
+    padding: 10px 0;
+    margin-bottom: 15px!important;
+  }
+  //create pizza
+  .create-pizza {
+    padding-top: 0.5rem !important;
+  }
+  .according__info_box-img img{
+    padding: 10px!important;
+  }
+  //.counter-up
+  .counter-up{
+    width: 100px!important;
+    height: 100px!important;
+  }
+  //feedback
+  .feedback__slider_slid {
+    margin: 0px 10px !important;
+    .feedback__slider_slid_img img {
+      padding: 5px 5px 0 5px !important;
+    }
+  }
+  //mobile app
+  .mobile-app__img {
+    flex-basis: 40% !important;
+    img {
+      width: 250px !important;
+      padding: 20px !important;
+    }
+  }
+  .mobile-app__info_links a {
+    width: 100px !important;
+    height: 50px !important;
+    margin-left: 10px;
+  }
+  //news-letters
+  .news-letters {
+    padding: 3rem 0;
+    .news-letters__form {
+      .news-letters__form_txt {
+        height: 35px;
+        width: 210px;
+      }
+      .news-letters__form_btn {
+        height: 37px;
+        width: 70px;
+      }
+    }
+  }
 }
